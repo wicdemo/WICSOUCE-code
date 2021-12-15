@@ -31,6 +31,8 @@ namespace CWF3
 
            Guid id = {0000}
             // chage1
+            
+            //change 2
 
             IOrganizationService ios = iof.CreateOrganizationService(iwf.UserId);
             Entity en = ios.Retrieve("new_lecturer", id ,new ColumnSet("new_subject"));
