@@ -29,7 +29,7 @@ namespace CWF3
             IWorkflowContext iwf = context.GetExtension<IWorkflowContext>();
             IOrganizationServiceFactory iof = context.GetExtension<IOrganizationServiceFactory>();
 
-           Guid id = {0000}
+           id = {s1234]
             // chage1
             
             //change 2
