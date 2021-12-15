@@ -27,11 +27,20 @@ namespace CWF3
         protected override void Execute(CodeActivityContext context)
         {
             IWorkflowContext iwf = context.GetExtension<IWorkflowContext>();
-            IOrganizationServiceFactory iof = context.GetExtension<IOrganizationServiceFactory>();
+
 
             //Guid id = lecturer.Get(context).Id;
             // chage1
             //change3
+
+            //IOrganizationServiceFactory iof = context.GetExtension<IOrganizationServiceFactory>();
+
+
+           id = {s1234]
+            // chage1
+            //change 4
+            
+
             //change 2
 
             IOrganizationService ios = iof.CreateOrganizationService(iwf.UserId);
